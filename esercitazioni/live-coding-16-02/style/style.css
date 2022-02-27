@@ -1,0 +1,19 @@
+h2.title{
+    color: red;
+}
+
+/* div>p{
+    color: red;
+}
+
+div>div>p{
+    color: green;
+} */
+
+a:hover, a:active, a:focus{
+    background-color: red;
+}
+
+div>strong{
+    color: blue;
+}

@@ -1,0 +1,121 @@
+.purple{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+.red1{
+    height: 150px;
+    width: 300px;
+    background-color: red;
+    position:relative;
+}
+
+div.red1>.blu{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    position:absolute;
+}
+div.red1>.green{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    position:absolute;
+    left: 300px;
+    bottom: 0;
+}
+
+.red2{
+    margin-top: 20px;
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    position:relative;
+}
+
+div.red2>.blu:nth-child(1){
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    position:absolute;
+}
+div.red2>.blu:nth-child(2){
+    height: 50px;
+    width: 50px;
+    top: 0;
+    right: 0;
+    background-color: blue;
+    position:absolute;
+}
+div.red2>.blu:nth-child(3){
+    height: 50px;
+    width: 50px;
+    bottom: 0;
+    right: 0;
+    background-color: blue;
+    position:absolute;
+}
+
+div.red2>.green{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background-color: green;
+    bottom: 25px;
+    right: 25px;
+    z-index: 10;
+}
+
+.green{
+    margin-top: 20px;
+    height: 500px;
+    width: 800px;
+    background-color: green;
+}
+
+.blue1{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    z-index: 1;
+    display: inline-block;
+}
+.blue2{
+    position: absolute;
+    left: 320px;
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+}
+.blue1>.red1{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+.blue2>.red1{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+.blue1>.red2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+.blue2>.red2{
+    position: relative;
+    top:30px;
+    left: 20px;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
